@@ -1,6 +1,6 @@
 # Airflow Data Pipeline with MySQL to BigQuery
 
-[![Data Engineering](https://img.shields.io/badge/DBT-Airflow.svg)]
+[![Data Engineering](https://img.shields.io/badge/DATA ENGINEERING-Airflow.svg)]
 
 ## Overview
 
