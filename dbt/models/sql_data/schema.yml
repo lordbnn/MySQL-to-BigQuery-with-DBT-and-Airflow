@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: sql_data
+    database: postgres  
+    schema: public  
+    tables:
+      - name: employees
