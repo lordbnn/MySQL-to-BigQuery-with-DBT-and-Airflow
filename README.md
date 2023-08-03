@@ -1,6 +1,6 @@
 # Airflow Data Pipeline with MySQL to BigQuery
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Data Engineering](https://img.shields.io/badge/DBT-Airflow.svg)]
 
 ## Overview
 
