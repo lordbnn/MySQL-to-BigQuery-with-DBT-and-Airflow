@@ -53,11 +53,11 @@ with DAG(
     
     ) as dag:
     
-    dbt_run=PythonOperator(
+    dbt_run_task=PythonOperator(
         task_id='dbt_run',
         python_callable=dbt_run
         )
-    dbt_test=PythonOperator(
+    dbt_test_task=PythonOperator(
         task_id='dbt_test',
         python_callable=dbt_test
         )
@@ -76,4 +76,4 @@ with DAG(
     )    
 
 
-dbt_run >> dbt_test >> extract_new_data_task >> load_to_bigquery_task
+dbt_run_task >> dbt_test_task >> extract_new_data_task >> load_to_bigquery_task
